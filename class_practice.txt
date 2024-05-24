@@ -1,0 +1,46 @@
+# update and upgrade your os
+# check your python3 version by running:
+	- python3 -V
+	
+# install python3-pip package
+
+# install python3-venv package
+
+# create a new directory calls:
+	- My_DevOps_Class
+
+# go to your directory
+
+# create a virtual environment use the following code
+	- python3 -m venv .venv
+
+# execute activate.sh the virtual environment; the location of the virtual environment is following:
+
+	- .venv/bin/activate.sh
+	
+# install the following TimeDate package using pip
+
+	- pip install DateTime
+	
+# make a new file names $your_name.py
+
+# copy this code into your $your_name.py
+
+from DateTime import DateTime
+
+e = DateTime('JST')
+
+
+print(e)
+
+
+print("Hello, Japan!")
+
+# clear the screen
+
+# run your code use:
+	- python3 $your_name.py
+
+
+
+
